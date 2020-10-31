@@ -1,7 +1,7 @@
 import workspaceModel from '../models/workspace.model'
 import userModel from '../models/user.model'
 import { check } from '../utils/validEmailCheck'
-import { sendInvitation } from '../utils/invitationMail'
+import { sendInvitation } from '../utils/sendGridInvitaion'
 
 class Workspace {
 
